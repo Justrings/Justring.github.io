@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="java Mysql http json ajax," />
 
 
 
@@ -79,16 +79,21 @@
 
 
 
-<meta name="description" content="I believe I have the key to my life.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Welcome!">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="主要目的: 方便前端完成功能验证主要任务: 使用Java完成后端调用MySQL并返回json格式数据任务准备: 安装好Java tomcat, 主要是设置环境变量使用IDEA搭建一个JavaWeb应用参考 一个完整的搭建过程 主要过程有  新建一个Java –&amp;gt; JavaWeb application 项目 在 WEB-INF 目录下新建 classes 和 lib 目录, 将模块编译输出(">
+<meta name="keywords" content="java Mysql http json ajax">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用Java和Mysql完成后台响应">
+<meta property="og:url" content="http://yoursite.com/2017/12/09/JavaWithMysqlReturnJson/index.html">
 <meta property="og:site_name" content="Welcome!">
-<meta property="og:description" content="I believe I have the key to my life.">
+<meta property="og:description" content="主要目的: 方便前端完成功能验证主要任务: 使用Java完成后端调用MySQL并返回json格式数据任务准备: 安装好Java tomcat, 主要是设置环境变量使用IDEA搭建一个JavaWeb应用参考 一个完整的搭建过程 主要过程有  新建一个Java –&amp;gt; JavaWeb application 项目 在 WEB-INF 目录下新建 classes 和 lib 目录, 将模块编译输出(">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/2017/12/09/JavaWithMysqlReturnJson/database-structure.png">
+<meta property="og:image" content="http://yoursite.com/2017/12/09/JavaWithMysqlReturnJson/RespinseStatus.png">
+<meta property="og:updated_time" content="2017-12-08T19:26:39.253Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Welcome!">
-<meta name="twitter:description" content="I believe I have the key to my life.">
+<meta name="twitter:title" content="使用Java和Mysql完成后台响应">
+<meta name="twitter:description" content="主要目的: 方便前端完成功能验证主要任务: 使用Java完成后端调用MySQL并返回json格式数据任务准备: 安装好Java tomcat, 主要是设置环境变量使用IDEA搭建一个JavaWeb应用参考 一个完整的搭建过程 主要过程有  新建一个Java –&amp;gt; JavaWeb application 项目 在 WEB-INF 目录下新建 classes 和 lib 目录, 将模块编译输出(">
+<meta name="twitter:image" content="http://yoursite.com/2017/12/09/JavaWithMysqlReturnJson/database-structure.png">
 
 
 
@@ -118,13 +123,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/12/09/JavaWithMysqlReturnJson/"/>
 
 
 
 
 
-  <title>Welcome!</title>
+  <title>使用Java和Mysql完成后台响应 | Welcome!</title>
   
 
 
@@ -143,8 +148,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -217,9 +221,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -249,9 +253,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/12/09/JavaWithMysqlReturnJson/" itemprop="url">使用Java和Mysql完成后台响应</a></h1>
+          <h1 class="post-title" itemprop="name headline">使用Java和Mysql完成后台响应</h1>
         
 
         <div class="post-meta">
@@ -323,9 +325,7 @@
       
 
       
-        
-          
-            <h3 id="主要目的-方便前端完成功能验证"><a href="#主要目的-方便前端完成功能验证" class="headerlink" title="主要目的: 方便前端完成功能验证"></a>主要目的: 方便前端完成功能验证</h3><h5 id="主要任务-使用Java完成后端调用MySQL并返回json格式数据"><a href="#主要任务-使用Java完成后端调用MySQL并返回json格式数据" class="headerlink" title="主要任务: 使用Java完成后端调用MySQL并返回json格式数据"></a>主要任务: 使用Java完成后端调用MySQL并返回json格式数据</h5><h5 id="任务准备-安装好Java-tomcat-主要是设置环境变量"><a href="#任务准备-安装好Java-tomcat-主要是设置环境变量" class="headerlink" title="任务准备: 安装好Java tomcat, 主要是设置环境变量"></a>任务准备: 安装好Java tomcat, 主要是设置环境变量</h5><h5 id="使用IDEA搭建一个JavaWeb应用"><a href="#使用IDEA搭建一个JavaWeb应用" class="headerlink" title="使用IDEA搭建一个JavaWeb应用"></a>使用IDEA搭建一个JavaWeb应用</h5><p>参考 <a href="http://www.cnblogs.com/xuange306/p/7012341.html" target="_blank" rel="noopener">一个完整的搭建过程</a> 主要过程有</p>
+        <h3 id="主要目的-方便前端完成功能验证"><a href="#主要目的-方便前端完成功能验证" class="headerlink" title="主要目的: 方便前端完成功能验证"></a>主要目的: 方便前端完成功能验证</h3><h5 id="主要任务-使用Java完成后端调用MySQL并返回json格式数据"><a href="#主要任务-使用Java完成后端调用MySQL并返回json格式数据" class="headerlink" title="主要任务: 使用Java完成后端调用MySQL并返回json格式数据"></a>主要任务: 使用Java完成后端调用MySQL并返回json格式数据</h5><h5 id="任务准备-安装好Java-tomcat-主要是设置环境变量"><a href="#任务准备-安装好Java-tomcat-主要是设置环境变量" class="headerlink" title="任务准备: 安装好Java tomcat, 主要是设置环境变量"></a>任务准备: 安装好Java tomcat, 主要是设置环境变量</h5><h5 id="使用IDEA搭建一个JavaWeb应用"><a href="#使用IDEA搭建一个JavaWeb应用" class="headerlink" title="使用IDEA搭建一个JavaWeb应用"></a>使用IDEA搭建一个JavaWeb应用</h5><p>参考 <a href="http://www.cnblogs.com/xuange306/p/7012341.html" target="_blank" rel="noopener">一个完整的搭建过程</a> 主要过程有</p>
 <ol>
 <li>新建一个Java –&gt; JavaWeb application 项目</li>
 <li>在 WEB-INF 目录下新建 <code>classes</code> 和 <code>lib</code> 目录, 将模块编译输出(path选项)目录指向 classes ,将 Jar 依赖目录指向 lib .</li>
@@ -353,8 +353,6 @@
 <li>TODO: 使用getAttribute()一次性获取数据，迭代得到查询参数。</li>
 </ul>
 
-          
-        
       
     </div>
     
@@ -369,192 +367,36 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/12/08/配置java环境/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="cxyzz">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Welcome!">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/12/08/配置java环境/" itemprop="url">配置java环境</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-08T20:31:45+08:00">
-                2017-12-08
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/java-Mysql-http-json-ajax/" rel="tag"># java Mysql http json ajax</a>
           
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/12/08/配置java环境/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2017/12/08/配置java环境/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-             <span id="/2017/12/08/配置java环境/" class="leancloud_visitors" data-flag-title="配置java环境">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数&#58;</span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="安装Java-JDK-JRE"><a href="#安装Java-JDK-JRE" class="headerlink" title="安装Java (JDK JRE)"></a>安装Java (<a href="http://download.oracle.com/otn-pub/java/jdk/9.0.1+11/jdk-9.0.1_windows-x64_bin.exe" target="_blank" rel="noopener">JDK</a> JRE)</h1><p>  安装JDK的时候会自动安装JRE, 可选择将JDK, JRE安装在同一目录</p>
-<h1 id="配置PATH-与-CLASSPATH"><a href="#配置PATH-与-CLASSPATH" class="headerlink" title="配置PATH 与 CLASSPATH"></a>配置PATH 与 CLASSPATH</h1><ol>
-<li>先将JRE, JDK填好, 方便后面使用<ul>
-<li>JRE_HOME = <code>D:\Program Files\Java\jre-9.0.1;</code></li>
-<li>JAVA_HOME = <code>D:\Program Files\Java\jdk-9.0.1;</code></li>
-</ul>
-</li>
-<li>在path前面加 <code>%JDK%\bin;%JRE%\bin;</code></li>
-<li>设置CLASSPATH = <code>.;%JDK%\lib;%JRE%\lib;</code></li>
-</ol>
-<h1 id="测试-在-C-盘根目录-测试java是否安装成功-一般直接java-version即可-此处是运行文件实测"><a href="#测试-在-C-盘根目录-测试java是否安装成功-一般直接java-version即可-此处是运行文件实测" class="headerlink" title="测试. 在 C 盘根目录 测试java是否安装成功, 一般直接java -version即可,此处是运行文件实测."></a>测试. 在 C 盘根目录 测试java是否安装成功, 一般直接java -version即可,此处是运行文件实测.</h1><ol>
-<li><p>新建文件命名为 javademo.java ,以下为内容</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public class javademo &#123;</span><br><span class="line">	public static void main(String[] args)&#123;</span><br><span class="line">		System.out.println(&quot;Hello World!&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>具体分析</p>
-</li>
-</ol>
-<ul>
-<li>如果你直接在C盘根目录 <code>shift</code>+<code>鼠标右键</code>打开命令行窗口,打开后你会发现cmd的当前目录是<code>C:\User\Administrator</code>, 而不是<code>C:</code></li>
-<li>若你接着运行 <code>javac javademo.java</code> —&gt; 找不到文件;  这是因为程序运行时会根据CLASSPATH来查找类, 先查找当前文件夹(即cmd路径), 再查找JDK的lib,最后查找JRE的lib,没发现就会报错.</li>
-<li>现在的情况：cmd位置是在C:\User\Administrator,测试文件是在C:,所以出现错误.其他盘正常.<ol>
-<li>javac 可指定运行文件目录 <code>javac C:/javademo.java</code></li>
-</ol>
-</li>
-</ul>
-<h1 id="在sublime3-运行简单的java程序"><a href="#在sublime3-运行简单的java程序" class="headerlink" title="在sublime3 运行简单的java程序"></a>在sublime3 运行简单的java程序</h1><ol>
-<li>在package-&gt; user文件夹中 新建文件名为Java.sublime-build </li>
-<li>内容为 <pre><code>{
-    &quot;cmd&quot;: [&quot;javac&quot;, &quot;$file_name&quot;,&quot;&amp;&amp;&quot;,&quot;java&quot;, &quot;$file_base_name&quot;],
-    &quot;file_regex&quot;: &quot;^(...*?):([0-9]*):?([0-9]*)&quot;,
-    &quot;selector&quot;: &quot;source.java&quot;,
-    &quot;shell&quot;: true,
-    &quot;encoding&quot;: &quot;GBK&quot;
-}
-</code></pre></li>
-<li>新建java文件 <code>ctrl+b</code>即可编译+运行.  <code>ctrl+shift+b</code> 选择JavaC 只编译(sublime自带???)</li>
-</ol>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/12/08/配置java环境/" rel="next" title="配置java环境">
+                <i class="fa fa-chevron-left"></i> 配置java环境
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
       
     </footer>
   </div>
@@ -564,10 +406,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -575,6 +418,20 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -595,8 +452,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -649,6 +515,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#主要目的-方便前端完成功能验证"><span class="nav-number">1.</span> <span class="nav-text"><a href="#&#x4E3B;&#x8981;&#x76EE;&#x7684;-&#x65B9;&#x4FBF;&#x524D;&#x7AEF;&#x5B8C;&#x6210;&#x529F;&#x80FD;&#x9A8C;&#x8BC1;" class="headerlink" title="&#x4E3B;&#x8981;&#x76EE;&#x7684;: &#x65B9;&#x4FBF;&#x524D;&#x7AEF;&#x5B8C;&#x6210;&#x529F;&#x80FD;&#x9A8C;&#x8BC1;"></a>&#x4E3B;&#x8981;&#x76EE;&#x7684;: &#x65B9;&#x4FBF;&#x524D;&#x7AEF;&#x5B8C;&#x6210;&#x529F;&#x80FD;&#x9A8C;&#x8BC1;</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#主要任务-使用Java完成后端调用MySQL并返回json格式数据"><span class="nav-number">1.0.1.</span> <span class="nav-text"><a href="#&#x4E3B;&#x8981;&#x4EFB;&#x52A1;-&#x4F7F;&#x7528;Java&#x5B8C;&#x6210;&#x540E;&#x7AEF;&#x8C03;&#x7528;MySQL&#x5E76;&#x8FD4;&#x56DE;json&#x683C;&#x5F0F;&#x6570;&#x636E;" class="headerlink" title="&#x4E3B;&#x8981;&#x4EFB;&#x52A1;: &#x4F7F;&#x7528;Java&#x5B8C;&#x6210;&#x540E;&#x7AEF;&#x8C03;&#x7528;MySQL&#x5E76;&#x8FD4;&#x56DE;json&#x683C;&#x5F0F;&#x6570;&#x636E;"></a>&#x4E3B;&#x8981;&#x4EFB;&#x52A1;: &#x4F7F;&#x7528;Java&#x5B8C;&#x6210;&#x540E;&#x7AEF;&#x8C03;&#x7528;MySQL&#x5E76;&#x8FD4;&#x56DE;json&#x683C;&#x5F0F;&#x6570;&#x636E;</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#任务准备-安装好Java-tomcat-主要是设置环境变量"><span class="nav-number">1.0.2.</span> <span class="nav-text"><a href="#&#x4EFB;&#x52A1;&#x51C6;&#x5907;-&#x5B89;&#x88C5;&#x597D;Java-tomcat-&#x4E3B;&#x8981;&#x662F;&#x8BBE;&#x7F6E;&#x73AF;&#x5883;&#x53D8;&#x91CF;" class="headerlink" title="&#x4EFB;&#x52A1;&#x51C6;&#x5907;: &#x5B89;&#x88C5;&#x597D;Java tomcat, &#x4E3B;&#x8981;&#x662F;&#x8BBE;&#x7F6E;&#x73AF;&#x5883;&#x53D8;&#x91CF;"></a>&#x4EFB;&#x52A1;&#x51C6;&#x5907;: &#x5B89;&#x88C5;&#x597D;Java tomcat, &#x4E3B;&#x8981;&#x662F;&#x8BBE;&#x7F6E;&#x73AF;&#x5883;&#x53D8;&#x91CF;</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#使用IDEA搭建一个JavaWeb应用"><span class="nav-number">1.0.3.</span> <span class="nav-text"><a href="#&#x4F7F;&#x7528;IDEA&#x642D;&#x5EFA;&#x4E00;&#x4E2A;JavaWeb&#x5E94;&#x7528;" class="headerlink" title="&#x4F7F;&#x7528;IDEA&#x642D;&#x5EFA;&#x4E00;&#x4E2A;JavaWeb&#x5E94;&#x7528;"></a>&#x4F7F;&#x7528;IDEA&#x642D;&#x5EFA;&#x4E00;&#x4E2A;JavaWeb&#x5E94;&#x7528;</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -789,6 +671,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
 
   
 
@@ -806,6 +692,18 @@
       <script id="dsq-count-scr" src="https://.disqus.com/count.js" async></script>
     
 
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://yoursite.com/2017/12/09/JavaWithMysqlReturnJson/';
+          this.page.identifier = '2017/12/09/JavaWithMysqlReturnJson/';
+          this.page.title = '使用Java和Mysql完成后台响应';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
     
 
   
